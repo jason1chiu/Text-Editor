@@ -32,7 +32,7 @@ module.exports = () => {
         inject: true,
         name: 'Just Another Text Editor',
         short_name: 'JATE',
-        description: 'Unless we remember, we cannot understand',
+        description: 'WriteMate: A Progressive Web App Text Editor with Offline Capabilities',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
