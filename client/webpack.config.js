@@ -26,7 +26,9 @@ module.exports = () => {
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
-      }),
+        globDirectory: path.resolve(__dirname, 'dist'),
+        globPatterns: ['**/*.{html,css,js,png}'], // Include 'png' in the globPatterns
+      }),      
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
