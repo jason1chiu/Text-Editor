@@ -2,7 +2,7 @@
   "name": "JATE",
   "version": "1.0.0",
   "engines": {
-    "node": "19.x"
+    "node": "16.x"
   },
   "description": "",
   "main": "server.js",
