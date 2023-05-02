@@ -1,9 +1,6 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.x"
-  },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -19,15 +16,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "html-webpack-plugin": "^5.5.1",
-    "if-env": "^1.0.4",
-    "webpack": "^5.81.0",
-    "webpack-pwa-manifest": "^4.3.0",
-    "workbox-webpack-plugin": "^6.5.4"
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4",
-    "webpack-cli": "^5.0.2"
+    "nodemon": "^2.0.4"
   }
 }
